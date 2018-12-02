@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset=utf-8>
+        <title>Apresentação RCI: IOT - Internet Of Things</title>
+		<link rel="stylesheet" type="text/css" href="css/RCI_AP.css">
+        <script src="Js/Java.js"> </script>
+        
+        <!-- jQuery -->
+        <script src="http://ma5slider.ma5.pl/js/jquery.min.js"></script>
+     
+        <!-- jQuery UI mouse draggable widget -->
+        <script src="http://ma5slider.ma5.pl/js/jquery-ui.min.js"></script>
+     
+        <!-- Touch Event Support for jQuery UI -->
+        <script src="http://ma5slider.ma5.pl/js/jquery.ui.touch-punch.min.js"></script>
+     
+        <!-- MA5 Slider -->
+        <link href="http://ma5slider.ma5.pl/css/ma5slider.min.css" rel="stylesheet" type="text/css">
+        <script src="http://ma5slider.ma5.pl/js/ma5slider.min.js"></script>
+        
+        <style>
+            body{
+                background: #191818;
+            }
+        </style>
+        
+        <script>
+            $(window).on('load', function () {
+            $('.ma5slider').ma5slider();
+            });
+        </script> 
+        
+	</head>
+	<body>
+      <div id="RCI_AP" class="ma5slider anim-vertical vertical-navs vertical-dots top-dots">
+            <div class="slides">
+                <!-- children = slides -->
+                <a href="#slide-1"  data-ma5-nav="#000" style="text-decoration: none; color: black;">
+                    <div class="Slide">
+			            <div id=title>
+                            <h1 style="text-align: left">Roteiro</h1>
+                        </div>
+                        <div id="content">
+                            <ul>
+                                <li><h3>Introdução</h3></li>
+                                <li><h3>Características e aplicações</h3></li>
+                                <li><h3>Protocolos padronizados</h3></li>
+                                <li><h3>IEEE 802.15.4e</h3></li>
+                                <li><h3>6LoWPAN	e RPL</h3></li>
+                                <li><h3>CoAP e MQTT</h3></li>
+                                <li><h3>IoT e	Cidades Inteligentes</h3></li>
+                            </ul>
+                        </div>
+		            </div>
+                </a>
+                <a href="#slide-2"  data-ma5-nav="#000" style="text-decoration: none; color: black;">
+                    <div class="Slide">
+    			     <div id=title>
+                        <h1>Introdução</h1>
+                        </div>
+                        <div id="content">
+                            <ul>
+                                <li><h3>Internet das Coisas <i>(Internet of Things – IoT)</i></h3></li>
+                                <li><h3>O termo IoT se refere:</h3>
+                                    <ul>
+                                        <li><h4>Rede global que interconecta objetos inteligentes <i>(smart objects)</i> extendendo tecnologias da Internet;</h4></li>
+                                        <li><h4>Conjunto de tecnologias necessárias para realizar tal visão (ex:  RFID, sensores/atuadores, dispositivos de comunicações  máquina-máquina (M2M), etc);</h4></li>
+                                        <li><h4>Conjunto de aplicações e serviços que aproveitam estas  tecnologias para desenvolver novas oportunidades de negócios</h4></li>
+                                    </ul>
+                                </li>          
+                            </ul>
+                            <p><h5><i>D. Miorandi et al. / Ad Hoc Networks 10 (2012)</i></h5></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#slide-3" data-ma5-nav="#000" style="text-decoration: none; color: black;">
+                    <div class="Slide">
+			            <div id=title>
+                            <h1>Introdução</h1>
+                        </div>
+                        <div id="content">
+                            <ul>
+                                <li><h3>RFID</h3></li>
+                                <li><h3>Redes ad hoc móveis (MANETs)</h3></li>
+                                <li><h3>Redes de sensores</h3></li>
+                                <li><h3>Máquina-máquina (M2M)</h3></li>
+                                <li><h3>Redes veiculares (VANETs)</h3></li>
+                                <li><h3>Redes FANETS (Flying Ad Hoc Networks)</h3></li>
+                                <li><h3>Cidades inteligentes</h3></li>
+                                <li><h3>Big Data</h3></li>
+                            </ul>
+                        </div>
+		            </div>
+                </a>
+                <a href="#slide-4" data-ma5-nav="#000" style="text-decoration: none; color: black;">
+                    <div class="Slide">
+			            <div id=title>
+                            <h1>Introdução</h1>
+                        </div>
+                        <div id="content">
+                            <ul>
+                                <li><h3>Convergência de várias visões</h3></li>
+                            </ul>
+                            <div style="text-align:center;";><img src="images/RCI_AP_1.png" style="max-height: 60%; max-width: 60%"></div>
+                        </div>
+		            </div>
+                </a>
+                <a href="#slide-5"><img src="http://ma5slider.ma5.pl/images/DSC_1376.jpg" alt=""></a>
+                <a href="#slide-6"><img src="http://ma5slider.ma5.pl/images/DSC_1390.jpg" alt=""></a>
+            </div>
+        </div>
+    
+    <br><br>
+    <a id="last" class="ma5slider__control" href="#previous" data-ma5slider="#RCI_AP" data-ma5slide="previous">Previous slide</a>
+    <a id="next" class="ma5slider__control" href="#next" data-ma5slider="#RCI_AP" data-ma5slide="next">Next slide</a>
+    <!--
+    <button onclick="topFunction()" id="myBtn" title="Next">Ultima slide</button>
+    <button onclick="topFunction()" id="myBtn" title="Last">Proximo slide</button>
+    -->
+	</body>
+
+</html>
